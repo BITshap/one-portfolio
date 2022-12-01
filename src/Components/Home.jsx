@@ -14,14 +14,18 @@ const Home = () => {
                     Looking to expand my knowledge and build amazing software for others.
                     Currently working on web applications using Javascript, React, NodeJS, MongoDB, and SQL.
                 </p>
-                <div>
+                <div className="flex flex-row">
                     <Link to="portfolio" smooth duration={500} className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
                         Portfolio
                         <span className="group-hover:rotate-90 duration-300">
                             <MdKeyboardArrowRight size={20} className="ml-1"/>
                         </span>
                     </Link>
+                    <div>
+                    <a className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer ml-2" href="tel:+1310-880-6164">Call Now</a>
+                    </div>
                 </div>
+               
             </div>
             <div>
                 <img src={HeroImage} alt="my-personal-pic" className="rounded-2xl mx-auto w-1/2 md:w-2/3"/>
