@@ -1,14 +1,14 @@
 import React from 'react'
-import RestRant from '../assets/portfolio/rest_rant.png'
+import GameCushy from '../assets/portfolio/GameCushy.jpg'
 import Sme from '../assets/portfolio/SME.png'
 //to add project just add id:2 src: img and import the image above
 const Portfolio = () => {
     const portfolios = [
         {
             id: 1,
-            src: RestRant,
-            Demo: 'https://fast-plateau-92910.herokuapp.com/',
-            Code: 'https://github.com/BITshap/Rest-Rant',
+            src: GameCushy,
+            Demo: 'https://www.gamecushy.com/',
+            Code: 'https://github.com/BITshap/Game-Cushy',
         },
         {
             id: 2,
